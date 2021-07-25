@@ -1,0 +1,18 @@
+.content-info {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    background: #064E5D;
+    clear: both;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.2;
+    font-size: clamp(8px, 2vw, 12px);
+}
+
+.footer-content-container {
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}

@@ -2,37 +2,119 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+div {
+    display: block;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #ffffff;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+ol, ul {
+    margin: 0 auto 20px;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+*, .kc-col-container, .kc-container, .kc-elm {
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-wrap: break-word;
+    color: #ffffff;
+    padding-top: 0;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.section-body {
+    display: flex;
+    flex: 10;
+}
+
+.content-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex: 2;
+    flex-direction: column
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    font-size: 12px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 10px;
   }
 }
