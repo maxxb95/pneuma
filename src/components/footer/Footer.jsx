@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css";
+import * as PATH from "../../consts/Links";
+import {Link} from "react-router-dom";
 
 function Footer() {
     return (
@@ -7,20 +9,19 @@ function Footer() {
             <div className="footer-content-container">
                 <p>
                     <strong>
-                        <a href="/disclaimer/">
+                    {/*    <Link className="nav-link" to={PATH.ABOUT} onClick={() => setActiveLink("About")}>*/}
+                    {/*    About*/}
+                    {/*</Link>*/}
+
+                        <a href={PATH.DISCLAIMER}>
                             <span> DISCLAIMER</span>
                         </a>
                         &nbsp; &nbsp; |&nbsp; &nbsp;
                         <a href="/privacy-policy/">
                             <span>PRIVACY POLICY</span>
                         </a>
-                        &nbsp; &nbsp; |&nbsp; &nbsp;
-                        <a href="/related-sites/">
-                            <span>RELATED SITES</span>
-                        </a>
                     </strong>
                 </p>
-                <p><b></b>PLACEHOLDER</p>
             </div>
         </footer>
     )
