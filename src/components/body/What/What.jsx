@@ -11,8 +11,8 @@ const What = () => {
             <br/>
             <p>
                 Pneuma’s investment philosophy is built around patience and discipline. As value investors, we have a
-                research-oriented strategy surrounded around analyzing business fundamentals. We seek to have invest
-                concentrated portfolio of U.S Equities, priced at below our estimate of intrinsic worth.
+                research-oriented process focused on analyzing business fundamentals. We seek to invest in a
+                concentrated portfolio of U.S Equities, priced below our estimate of intrinsic worth.
             </p>
         </InfoContainer>
     );

@@ -5,13 +5,13 @@ const Who = () => {
     return (
         <InfoContainer>
         <p>
-            <b>Thomas Kenneally</b> is the Founder, Managing Partner and Chief Investment Officer of Pneuma. Tom has
-            a B.S. in Finance from Siena College. He was experience working in equity research and valuation at
-            Fenimore Asset Management, Prime Group Holdings and Blackstone Inc.
+            <b>Thomas Kenneally</b> is the Founder, Managing Partner and Chief Investment Officer of Pneuma. Thomas has
+            a B.S. in Finance from Siena College. He has experience working in equity research and valuation at
+            Fenimore Asset Management, Prime Group Holdings and Blackstone.
         </p>
         <br/>
         <p>
-            <b>Andrew Walrath</b> is he Chief Financial Officer of Pneuma. He was been a small business advisor and
+            <b>Andrew Walrath</b> is the Chief Financial Officer of Pneuma. He has been a small business advisor and
             accountant in Schenectady. He also has experience in business development at Duramill Inc. Andrew has a
             B.S. in Finance from Siena College.
         </p>
