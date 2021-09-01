@@ -9,16 +9,8 @@ function Footer() {
             <div className="footer-content-container">
                 <p>
                     <strong>
-                    {/*    <Link className="nav-link" to={PATH.ABOUT} onClick={() => setActiveLink("About")}>*/}
-                    {/*    About*/}
-                    {/*</Link>*/}
-
                         <a href={PATH.DISCLAIMER}>
                             <span> DISCLAIMER</span>
-                        </a>
-                        &nbsp; &nbsp; |&nbsp; &nbsp;
-                        <a href="/privacy-policy/">
-                            <span>PRIVACY POLICY</span>
                         </a>
                     </strong>
                 </p>
