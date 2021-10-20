@@ -6,25 +6,27 @@ const About = () => {
     return (
         <InfoContainer>
             <div>
-                <h3>Founded in 2021</h3>
+                <h3 style={{ marginBottom: "8px", marginTop: "8px" }}>Founded in 2021</h3>
                 <p>
                     Pneuma Investment Management, LLC (“PIM”) was founded in 2021 by Thomas Kenneally. PIM is
-                    headquartered in Schenectady, NY and is the General Partner to the Pneuma Value Fund, LP.
+                    headquartered in Schenectady, NY and is the General Partner of Pneuma Value Fund, LP.
                 </p>
             </div>
             <br/>
             <div>
-                <h3>Firm Values</h3>
-                <p><b>Integrity.</b> PIM believes that the best way to grow is to be honest, straightforward and act
-                    in the best interest of our limited partners. We strive to exemplify this. The investment business
-                    is built on trust and that is something we take very seriously.</p>
-                <p><b>Perseverance.</b> Providing quality and sustainable investment returns takes daily consistency and
-                    perseverance. PIM will stay true to our philosophy and always strive to be better for our investors,
-                    in good times and bad.</p>
+                <h3 style={{ marginBottom: "8px", marginTop: "8px" }}>Firm Values</h3>
+                <p><b>Integrity.</b> We believe being completely honest and straightforward is a must in the investment
+                  business. We want our Limited Partners to know we are doing the right thing by them when they are
+                  looking and when they are not.</p>
+                <br/>
+                <p><b>Perseverance.</b> Providing quality and sustainable investment returns takes daily consistency
+                  and discipline. We will stay true to our philosophy and always strive to be better for our investors,
+                  in good times and bad.</p>
+                <br/>
                 <p><b>Patience.</b> This is perhaps the most important virtue to being a good investor in our eyes.
-                    The market’s daily, weekly and monthly volatility can make one question their investments or ideas.
-                    Patience is a key component to letting investment ideas play-out and getting through market
-                    downturns or recessions.</p>
+                  The market’s daily, weekly and monthly volatility can cause some fear or desire to react.
+                  Patience is a key component to letting investment ideas play-out and getting through market
+                  downturns or recessions.</p>
             </div>
         </InfoContainer>
     );

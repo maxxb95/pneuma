@@ -7,7 +7,7 @@ const Who = () => {
         <p>
             <b>Thomas Kenneally</b> is the Founder, Managing Partner and Chief Investment Officer of Pneuma. Thomas has
             a B.S. in Finance from Siena College. He has experience working in equity research and valuation at
-            Fenimore Asset Management, Prime Group Holdings and Blackstone.
+            Fenimore Asset Management, Inc., Prime Group Holdings, LLC, and Blackstone, Inc.
         </p>
         <br/>
         <p>

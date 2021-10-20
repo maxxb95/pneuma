@@ -5,8 +5,8 @@ const What = () => {
     return (
         <InfoContainer>
             <p>
-                <b>Pneuma Investment Management, LLC</b> is the General Partner to the Pneuma Value Fund, LP (“PVF”).
-                PVF is a private investment fund.
+                <b>Pneuma Investment Management, LLC</b> is the General Partner of Pneuma Value Fund, LP.
+              Pneuma Value Fund, LP is a private investment fund.
             </p>
             <br/>
             <p>
